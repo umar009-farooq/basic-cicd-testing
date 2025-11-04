@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM amazoncorretto:17
 WORKDIR /app
 COPY ./target/basic-cicd-testing.jar /app/
 EXPOSE 8080
